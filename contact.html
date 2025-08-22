@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/40f795babb.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -94,7 +95,7 @@
             <h1 class="con-txt">Contact Us</h1>
           </div>
         </div>
-        <div class="contact-info">
+        <div class="contact-info" >
           <div class="contact-frame">
             <div class="git">
               <form
@@ -154,22 +155,22 @@
                 <p>+234 000 000 000 0</p>
               </div>
               <div class="con-gri">
-                <i class="fa-solid fa-phone"></i>
-                <p style="font-weight: bold">Phone Number</p>
+                <i class="fa-solid fa-envelope" id="phone"></i>
+                <p style="font-weight: bold">Email Address</p>
+                <p>Example@Email.com</p>
+              </div>
+              <div class="con-gri">
+                <i class="fa-brands fa-whatsapp" id="phone"></i>
+                <p style="font-weight: bold">Whatsapp</p>
                 <p>+234 000 000 000 0</p>
               </div>
               <div class="con-gri">
-                <i class="fa-solid fa-phone"></i>
-                <p style="font-weight: bold">Phone Number</p>
-                <p>+234 000 000 000 0</p>
-              </div>
-              <div class="con-gri">
-                <i class="fa-solid fa-phone"></i>
-                <p style="font-weight: bold">Phone Number</p>
-                <p>+234 000 000 000 0</p>
+                <i class="fa-solid fa-location-dot" id="phone"></i>
+                <p style="font-weight: bold">Our Office</p>
+                <p>23 street ave loc als</p>
               </div>
             </div>
-            <div class="map-contact">
+            <div class="map-contact" data-aos="zoom-out">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d59039.08675168858!2d3.210442283760212!3d6.473195517837321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1755832123161!5m2!1sen!2sng"
                 width="100%"
@@ -182,7 +183,7 @@
             </div>
           </div>
         </div>
-        <div class="the-contact">
+        <div class="the-contact" data-aos="zoom-in">
           <div class="the-contact-bg-1">
             <div class="div-lass">
               <p class="with-us">Shop With Us</p>
@@ -264,5 +265,9 @@
     </footer>
 
     <script src="/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

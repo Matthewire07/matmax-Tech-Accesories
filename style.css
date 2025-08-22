@@ -1079,7 +1079,7 @@ a {
   }
 
   .pod-1 {
-    background: url(/image/storehome/store3.png) no-repeat center;
+    background: url(/image/storehome/store3.png) no-repeat center ;
   }
   .pod-2 {
     background: url(/image/storehome/store1.png) no-repeat center;
@@ -1091,7 +1091,7 @@ a {
     background: url(/image/storehome/store4.png) no-repeat center;
   }
   .pod-store-1 {
-    background: url(/image/Laptops/Hp\Omen\15\\(2018\)..jpg) no-repeat center;
+    background: url(/image/Laptops/Hp\ Omen15.jpg) no-repeat center;
   }
   .pod-store-2 {
     background: url(/image/Laptops/Predator\ Helios.jpg) no-repeat center;
@@ -1909,6 +1909,7 @@ a {
 
 #phone {
   font-size: 1.5rem;
+  margin-bottom: 10px;
   @media (max-width: 885px) {
     font-size: 1.3rem;
   }
